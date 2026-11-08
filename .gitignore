@@ -1,0 +1,24 @@
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.DS_Store
+.env
+.env.*
+.vscode/
+data/
+results/
+runs/
+checkpoints/
+*.pt
+*.pth
+*.h5
+*.keras
+*.tflite
+.ipynb_checkpoints/
+# Large CSV files
+audit/*.csv
+results/*.csv
+# Backup files
+*.backup*
+*_backup.py
